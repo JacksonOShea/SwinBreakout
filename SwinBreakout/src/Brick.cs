@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SwinGameSDK;
-namespace MyGame
+
+namespace MyGame  
 {
-    class Platform
+    public class Brick
     {
+        private Color _color;
         private float _x, _y;
         private int _width, _height;
-        private Color _color;
-        private int SPEED = 4;
+        private int _health;
         private Rectangle _area;
 
         public Rectangle Area
@@ -20,6 +21,11 @@ namespace MyGame
             set { _area = value; }
         }
 
+        public int Health
+        {
+            get { return _health; }
+            set { _health = value; }
+        }
         public float X
         {
             get { return _x; }
@@ -31,40 +37,41 @@ namespace MyGame
             get { return _y; }
             set { _y = value; }
         }
-
+        
         public int Width
         {
             get { return _width; }
             set { _width = value; }
         }
-
+        
         public int Height
         {
             get { return _height; }
             set { _height = value; }
         }
-
-        public Platform()
+        
+        public Brick(Color clr,float x,float y,int w,int h,int health)
         {
-            _x = 350;
-            _y = 550;
-            _width = 100;
-            _height = 20;
-            _color = Color.Black;
+            _color = clr;
+            _x = x;
+            _y = y;
+            _width = w;
+            _height = h;
+            _health = health;
             _area.X = _x;
             _area.Y = _y;
             _area.Height = _height;
             _area.Width = _width;
         }
 
-        public void MoveRight()
+        public void Random()
         {
-            _x = _x + SPEED;
+            _color = SwinGame.RandomRGBColor(255);
         }
-
-        public void MoveLeft()
+        
+        public void ReduceHealth()
         {
-            _x = _x - SPEED;
+            _health = _health - 1;
         }
 
         public void Draw()
@@ -72,5 +79,9 @@ namespace MyGame
             SwinGame.FillRectangle(_color, _x, _y, _width, _height);
         }
 
+        public bool IsAt(Point2D pt) //SwinGame.PointInRect()  // PointInRect() 
+        {
+            return SwinGame.PointInRect(pt,_x,_y,_width,_height);
+        }
     }
 }
