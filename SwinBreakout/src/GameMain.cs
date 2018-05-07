@@ -11,6 +11,8 @@ namespace MyGame
             SwinGame.OpenGraphicsWindow("GameMain", 800, 600);
             //SwinGame.ShowSwinGameSplashScreen();
 
+            Platform myPlat;
+            myPlat = new Platform();
 
             //Run the game loop
             while (false == SwinGame.WindowCloseRequested())
@@ -22,8 +24,23 @@ namespace MyGame
                 SwinGame.ClearScreen(Color.White);
                 SwinGame.DrawFramerate(0,0);
 
+                if (SwinGame.KeyDown(KeyCode.RightKey))
+                {
+                    myPlat.MoveRight();
+                }
+                if (SwinGame.KeyDown(KeyCode.LeftKey))
+                {
+                    myPlat.MoveLeft();
+                }
+
+                myPlat.Draw();
+
+
+
                 //Draw onto the screen
                 SwinGame.RefreshScreen(60);
+
+
 
             }
         }
