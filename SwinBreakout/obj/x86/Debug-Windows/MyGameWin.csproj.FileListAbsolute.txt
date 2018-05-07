@@ -1,0 +1,53 @@
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\animations\startup.txt
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\bundles\FileDialog.txt
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\bundles\splash.txt
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\fonts\arial.ttf
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\fonts\cour.ttf
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\fdFile.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\fdFolder.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Active.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Background.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Inactive.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Scroll.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\Swinburne.jpg
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\images\SwinGameAni.png
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\panels\FileDialog.txt
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\sounds\error.wav
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\sounds\SwinGameStart.wav
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\SwinGame.icns
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\Resources\SwinGame.ico
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\MyGame.exe
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\MyGame.pdb
+H:\2_OOP\week2\ShapeDrawing\bin\Debug\SwinGame.dll
+H:\2_OOP\week2\ShapeDrawing\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+H:\2_OOP\week2\ShapeDrawing\obj\x86\Debug-Windows\MyGame.exe
+H:\2_OOP\week2\ShapeDrawing\obj\x86\Debug-Windows\MyGame.pdb
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\animations\startup.txt
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\bundles\FileDialog.txt
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\bundles\splash.txt
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\fonts\arial.ttf
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\fonts\cour.ttf
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\fdFile.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\fdFolder.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Active.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Background.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Inactive.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\FileDialog_Scroll.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\Swinburne.jpg
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\images\SwinGameAni.png
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\panels\FileDialog.txt
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\sounds\error.wav
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\sounds\SwinGameStart.wav
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\SwinGame.icns
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\Resources\SwinGame.ico
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\MyGame.exe
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\MyGame.pdb
+H:\03_DP1\Distinction project\ShapeDrawing\bin\Debug\SwinGame.dll
+H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
+H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGame.exe
+H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGame.pdb
