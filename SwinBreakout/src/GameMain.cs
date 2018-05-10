@@ -7,42 +7,31 @@ namespace MyGame
     {
         public static void Main()
         {
+            // Opens Audio in swin game
+            SwinGame.OpenAudio();
+
             //Open the game window
-            SwinGame.OpenGraphicsWindow("GameMain", 800, 600);
-            //SwinGame.ShowSwinGameSplashScreen();
+            SwinGame.OpenGraphicsWindow("GameMain", 1005, 600);
 
-            Platform myPlat;
-            myPlat = new Platform();
+            // Load all relevant files
+            GameResources.LoadResources();
 
-            //Run the game loop
-            while (false == SwinGame.WindowCloseRequested())
+            //TODO:
+            // GameController _gameController = new GameController();
+
+
+            //Runs the Game Loop
+            do
             {
-                //Fetch the next batch of UI interaction
-                SwinGame.ProcessEvents();
-                
-                //Clear the screen and draw the framerate
-                SwinGame.ClearScreen(Color.White);
-                SwinGame.DrawFramerate(0,0);
-
-                if (SwinGame.KeyDown(KeyCode.RightKey))
-                {
-                    myPlat.MoveRight();
-                }
-                if (SwinGame.KeyDown(KeyCode.LeftKey))
-                {
-                    myPlat.MoveLeft();
-                }
-
-                myPlat.Draw();
+                //TODO:
+                // _gameController.HandleUserInput();
+                // _gameController.DrawScreen();
 
 
+            } while (!(SwinGame.WindowCloseRequested() == true));
 
-                //Draw onto the screen
-                SwinGame.RefreshScreen(60);
-
-
-
-            }
+            SwinGame.ReleaseAllBitmaps();
+            SwinGame.ReleaseAllMusic();
         }
     }
 }
