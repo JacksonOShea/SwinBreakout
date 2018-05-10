@@ -9,79 +9,53 @@ namespace MyGame
 {
     public class Brick
     {
-        private Color _color;
-        private float _x, _y;
+        private int _x, _y;
         private int _width, _height;
-        private int _health;
-        private Rectangle _area;
+        private Bitmap _bmp;
 
-        public Rectangle Area
+        public Brick(int _X, int _Y, Bitmap _Bmp)
         {
-            get { return _area; }
-            set { _area = value; }
+            _x = _X;
+            _y = _Y;
+            _bmp = _Bmp;
+
+            _width = SwinGame.BitmapWidth(_bmp);
+            _height = SwinGame.BitmapHeight(_bmp);
         }
 
-        public int Health
+        public void Draw()
         {
-            get { return _health; }
-            set { _health = value; }
+            SwinGame.DrawBitmap(_bmp, _x, _y);
         }
-        public float X
+
+        public int X
         {
             get { return _x; }
             set { _x = value; }
         }
 
-        public float Y
+        public int Y
         {
             get { return _y; }
             set { _y = value; }
         }
-        
+
         public int Width
         {
             get { return _width; }
             set { _width = value; }
         }
-        
+
         public int Height
         {
             get { return _height; }
             set { _height = value; }
         }
-        
-        public Brick(Color clr,float x,float y,int w,int h,int health)
-        {
-            _color = clr;
-            _x = x;
-            _y = y;
-            _width = w;
-            _height = h;
-            _health = health;
-            _area.X = _x;
-            _area.Y = _y;
-            _area.Height = _height;
-            _area.Width = _width;
-        }
 
-        public void Random()
+        public Bitmap Bmp
         {
-            _color = SwinGame.RandomRGBColor(255);
-        }
-        
-        public void ReduceHealth()
-        {
-            _health = _health - 1;
-        }
-
-        public void Draw()
-        {
-            SwinGame.FillRectangle(_color, _x, _y, _width, _height);
-        }
-
-        public bool IsAt(Point2D pt) //SwinGame.PointInRect()  // PointInRect() 
-        {
-            return SwinGame.PointInRect(pt,_x,_y,_width,_height);
+            get { return _bmp; }
+            set { _bmp = Bmp; }
         }
     }
 }
