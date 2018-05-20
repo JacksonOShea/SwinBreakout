@@ -7,14 +7,16 @@ namespace MyGame
     //The Collision Manager stores no variables, simply checks whether collisions have occured
     public class CollisionManager
     {
-        //Brick Manager COnstructor
+        private List<Brick> _bricksToDelete = new List<Brick>();
+
+        //Collision Manager COnstructor
         public CollisionManager()
         { }
             
 
         //Checks if the Ball has hit a brick
         public void BallHitBrick(Ball _ball, Brick[] _bricks)
-        {
+        {            
             //Checks every brick
             for (int i = 0; i < _bricks.Length; i++)
             {
@@ -22,12 +24,17 @@ namespace MyGame
                 if (SwinGame.BitmapCollision(_bricks[i].Bmp, _bricks[i].X, _bricks[i].Y, _ball.Bmp, _ball.X, _ball.Y))
                 {
                     _bricks[i].X = 1500;
+                    _bricksToDelete.Add(_bricks[i]);
                     _ball.BounceBallOffBrick();
-
                 }
             }
+            _bricksToDelete.Clear();            
         }
 
+        public void DeleteBricks(Brick[] _bricks)
+        {
+            _bricksToDelete.Clear();
+        }
 
         //Checks if the Ball has hit the paddle
         public void BallHitPaddle(Ball _ball, Paddle _paddle)
