@@ -51,3 +51,105 @@ H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGameWin.cspro
 H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
 H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGame.exe
 H:\03_DP1\Distinction project\ShapeDrawing\obj\x86\Debug-Windows\MyGame.pdb
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.exe
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.pdb
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\animations\startup.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\splash.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\arial.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\cour.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFile.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFolder.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Swinburne.jpg
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\SwinGameAni.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\panels\FileDialog.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\error.wav
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.icns
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.ico
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\MyGame.exe
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\MyGame.pdb
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\SwinGame.dll
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CopyComplete
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Ball.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\GreenBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Paddle.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\RedBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\YellowBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\BlueBrick.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\animations\startup.txt
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\splash.txt
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\arial.ttf
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\cour.ttf
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Ball.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\BlueBrick.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFile.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFolder.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\GreenBrick.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Paddle.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\RedBrick.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Swinburne.jpg
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\SwinGameAni.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\YellowBrick.png
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\panels\FileDialog.txt
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\error.wav
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.icns
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.ico
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\MyGame.exe
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\MyGame.pdb
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\bin\Debug\SwinGame.dll
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CopyComplete
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.exe
+C:\Users\Jacks\Uni\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.pdb
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\animations\startup.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\FileDialog.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\bundles\splash.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\arial.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\cour.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\fonts\maven_pro_regular.ttf
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Ball.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\BlueBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFile.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\fdFolder.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Active.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Background.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Inactive.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_Scroll.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\GreenBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Paddle.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\RedBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\Swinburne.jpg
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\SwinGameAni.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\YellowBrick.png
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\panels\FileDialog.txt
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\error.wav
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\SwinGameStart.wav
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.icns
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\Resources\SwinGame.ico
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\MyGame.exe
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\MyGame.pdb
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\bin\Debug\SwinGame.dll
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csprojResolveAssemblyReference.cache
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CopyComplete
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.exe
+C:\Users\Jacks\Desktop\Development Project 1 - Tools and Practices\Distinction Project\Latest\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.pdb

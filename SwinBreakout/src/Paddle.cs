@@ -8,55 +8,57 @@ namespace MyGame
 {
     public class Paddle
     {
-        private float _x, _y;
+        private int _x, _y;
         private int _width, _height;
         private int _dx;
-        private Bitmap _bitmap;
+        private Bitmap _bmp;
 
         //The paddle that is used to hit the ball
         public Paddle()
         {
-            _x = 350;
+            _bmp = SwinGame.BitmapNamed("Paddle");
+            _width = SwinGame.BitmapWidth(_bmp);
+            _x = ((SwinGame.ScreenWidth() - _width) / 2);
             _y = 550;
-            _bitmap = SwinGame.BitmapNamed("Paddle");
-            _width = SwinGame.BitmapWidth(_bitmap);
-            _height = SwinGame.BitmapHeight(_bitmap);
+            _height = SwinGame.BitmapHeight(_bmp);
             _dx = 4;
         }
 
         //Moves the paddle Right
         public void MoveRight()
         {
-            _x = _x + _dx;
+                        //Multiplied by 3 to make the game faster and for later levels
+            _x = _x + (_dx * 3);
         }
 
         //Moves the paddle Left
         public void MoveLeft()
         {
-            _x = _x - _dx;
+                        //Multiplied by 3 to make the game and for later levels
+            _x = _x - (_dx * 3);
         }
 
         public void Draw()
         {
-            SwinGame.DrawBitmap(_bitmap, _x, _y);
+            SwinGame.DrawBitmap(_bmp, _x, _y);
         }
 
         //Simply Resets the paddle
         public void Reset()
         {
-            _x = 350;
+            _x = (int)((SwinGame.ScreenWidth() + _width) / 2);
         }
 
 
         //X position Property
-        public float X
+        public int X
         {
             get { return _x; }
             set { _x = value; }
         }
 
         //Y position property
-        public float Y
+        public int Y
         {
             get { return _y; }
             set { _y = value; }
@@ -84,10 +86,10 @@ namespace MyGame
         }
 
         //Bitmap Property
-        public Bitmap Bitmap
+        public Bitmap Bmp
         {
-            get { return Bitmap; }
-            set { _bitmap = Bitmap; }
+            get { return _bmp; }
+            set { _bmp = value; }
         }
     }
 }

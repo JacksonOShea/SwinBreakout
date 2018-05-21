@@ -16,17 +16,16 @@ namespace MyGame
             // Load all relevant files
             GameResources.LoadResources();
 
-            //TODO:
-            // GameController _gameController = new GameController();
+            GameController _gameController = new GameController();
 
 
             //Runs the Game Loop
             do
             {
-                //TODO:
-                // _gameController.HandleUserInput();
-                // _gameController.DrawScreen();
-
+                //Checks the user's input, Checks the Collision and then Draws the Screen
+                _gameController.HandleUserInput();
+                _gameController.CheckCollision();
+                _gameController.DrawScreen();
 
             } while (!(SwinGame.WindowCloseRequested() == true));
 
