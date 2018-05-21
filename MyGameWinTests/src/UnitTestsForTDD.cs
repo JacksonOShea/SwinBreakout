@@ -89,7 +89,7 @@ namespace MyGame.Tests
             paddleTest.Width = 60;
             int PaddleSection = (paddleTest.Width / 6);
             ballTest.Dy = 1;
-            ballTest.X = paddleTest.X + PaddleSection * 3 ;
+            ballTest.X = paddleTest.X + PaddleSection * 3;
             ballTest2.Dy = 1;
             ballTest2.X = paddleTest.X + PaddleSection * 4;
             cM.CalculateBallDirection(paddleTest, ballTest);
@@ -208,6 +208,25 @@ namespace MyGame.Tests
             gC.CheckLost();
             Assert.AreEqual(502, gC._paddle.X);
         }
+
+
+        [TestMethod()]
+        public void BrickManagerCreateBricks()
+        {
+            BrickManager bM = new BrickManager();
+            Assert.AreEqual(40, bM.CreatedBricks.Length);
+        }
+
+        [TestMethod()]
+        public void bricksresetsafterloss()
+        {
+            GameController gc = new GameController();
+            gc._ball.y = SwinGame.ScreenHeight() + gc._ball.Height + 1;
+            gc.CheckLost();
+            Assert.AreEqual(40, gc._bricks.Length);
+        }
+
+        
 
     }
 }
