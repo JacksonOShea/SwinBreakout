@@ -17,6 +17,14 @@ namespace MyGame.Tests
             SwinGame.OpenGraphicsWindow("GameMain", 1005, 600);
         }
 
+
+        //----------------------------------------------------------------
+        //----------------------------------------------------------------
+        //-------------------- Kai Leung, LUI (EDDIE) --------------------
+        //----------------------------------------------------------------
+        //----------------------------------------------------------------
+
+
         [TestMethod()]
         public void PaddleMoveLeft()
         {
@@ -34,7 +42,6 @@ namespace MyGame.Tests
             TestPaddle.MoveRight();
             Assert.AreEqual(514, TestPaddle.X);
         }
-
 
         [TestMethod()]
         public void CheckSpeedFarEnds()
@@ -90,4 +97,117 @@ namespace MyGame.Tests
             Assert.AreEqual(ballTest2.Dy + ballTest2.Dx, ballTest.Dy - ballTest.Dx);
         }
 
+
+        //----------------------------------------------------------------
+        //----------------------------------------------------------------
+        //-------------------- HARSHIT TOMAR -----------------------------
+        //----------------------------------------------------------------
+        //----------------------------------------------------------------
+
+        [TestMethod()]
+        public void BallHitPaddleFarLeft()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(-5, ballTest.Dx);
+        }
+
+        [TestMethod()]
+        public void BallHitPaddleMiddleLeft()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection * 2;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(-3, ballTest.Dx);
+        }
+
+        [TestMethod()]
+        public void BallHitPaddleCentreLeft()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection * 3;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(-1, ballTest.Dx);
+        }
+
+        [TestMethod()]
+        public void BallHitPaddleCentreRight()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection * 4;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(1, ballTest.Dx);
+        }
+        [TestMethod()]
+        public void BallHitPaddleMiddleRight()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection * 5;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(3, ballTest.Dx);
+        }
+
+
+        [TestMethod()]
+        public void BallHitPaddleFarRight()
+        {
+            Paddle paddleTest = new Paddle();
+            Ball ballTest = new Ball();
+            CollisionManager cM = new CollisionManager();
+            paddleTest.Width = 60;
+            int PaddleSection = (paddleTest.Width / 6);
+            ballTest.Dy = 1;
+            ballTest.X = paddleTest.X + PaddleSection * 6;
+            cM.CalculateBallDirection(paddleTest, ballTest);
+            Assert.AreEqual(5, ballTest.Dx);
+
+        }
+
+
+
+        [TestMethod()]
+        public void BallResetsAfterLoss()
+        {
+            GameController gC = new GameController();
+            gC._ball.Y = SwinGame.ScreenHeight() + gC._ball.Height + 1;
+            gC.CheckLost();
+            Assert.AreEqual(350, gC._ball.Y);
+        }
+
+        [TestMethod()]
+        public void PaddleResetsAfterLoss()
+        {
+            GameController gC = new GameController();
+            gC._ball.Y = SwinGame.ScreenHeight() + gC._ball.Height + 1;
+            gC.CheckLost();
+            Assert.AreEqual(502, gC._paddle.X);
+        }
+
+    }
 }
