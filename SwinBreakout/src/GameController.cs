@@ -11,27 +11,32 @@ namespace MyGame
         public Brick[] _bricks;
         public BrickManager _brickManager;
         public CollisionManager _collisionManager;
+        public PauseManager _pauseManager;
         public DisplayManager _displayManager;
-
         public int _score;
         public bool _brickHit;
+        public bool _paused;
+
 
         //Controls the Game and its flow
         public GameController()
         {
+            _pauseManager = new PauseManager();
             _brickManager = new BrickManager();
             _collisionManager = new CollisionManager();
-            _displayManager = new DisplayManager ();
+            _displayManager = new DisplayManager();
             _paddle = new Paddle();
             _ball = new Ball();
             _bricks = _brickManager.CreateBricks();
             _score = 0;
+            _paused = false;
         }
 
 
         // New game, re-place ball, paddle and Bricks
         public void StartGame()
         {
+            //Shows "Game Now Starting Screen"
             _brickManager.RestoreBricks();
             _paddle.Reset();
             _ball.Reset();
@@ -61,12 +66,12 @@ namespace MyGame
             _collisionManager.BallHitPaddle(_ball, _paddle);
         }
 
-
-        public void CheckStatus ()
+        public void CheckStatus()
         {
-            CheckWon ();
-            CheckLost ();
+            CheckWon();
+            CheckLost();
         }
+
 
 
         // Handles user input
@@ -79,9 +84,17 @@ namespace MyGame
             {
                 _paddle.MoveRight();
             }
+
             if (SwinGame.KeyDown(KeyCode.LeftKey) && (_paddle.X > 0))
             {
                 _paddle.MoveLeft();
+            }
+
+
+            //Checks if the game is paused
+            if (SwinGame.KeyTyped(KeyCode.EscapeKey))
+            {
+                _paused = true;
             }
 
             //Updates the ball
@@ -90,12 +103,38 @@ namespace MyGame
         }
 
 
+        //Draws the Pause Menu
+        public void CheckPause()
+        {
+            int PauseSelection = 1;
+            if (_paused)
+            {
+                do
+                {
+                    _pauseManager.DrawPauseScreen();
+                    _pauseManager.ShowPauseOptions(PauseSelection);
+
+                    PauseSelection = _pauseManager.ChangePauseSelection(PauseSelection);
+                    SwinGame.RefreshScreen(60);
+
+
+                    if ((SwinGame.KeyTyped(KeyCode.ReturnKey)) && PauseSelection == 2)
+                    {
+                        StartGame();
+                        _paused = false;
+                    }
+                        
+                } while (!(SwinGame.KeyTyped(KeyCode.EscapeKey)) && !(SwinGame.KeyTyped(KeyCode.ReturnKey)) && !(SwinGame.WindowCloseRequested()));
+
+                _paused = false;
+            }
+        }
 
         // Displays game state on screen
         public void DrawScreen()
         {
             SwinGame.ClearScreen(SwinGame.ColorBlack());
-
+            
             //Draws the Paddle
             _paddle.Draw();
 
@@ -109,9 +148,8 @@ namespace MyGame
             DrawHeadings();
 
             SwinGame.RefreshScreen();
-        }
-
-
+        }   
+        
         // Draws the Current Headings
         public void DrawHeadings()
         {
@@ -130,20 +168,22 @@ namespace MyGame
         }
 
         //Checks if the player has lost
-        public void CheckLost ()
+        public void CheckLost()
         {
-            if (_ball.Y > (SwinGame.ScreenHeight () + _ball.Height)) {
-                _displayManager.DisplayLostScreen ();
-                StartGame ();
+            if (_ball.Y > (SwinGame.ScreenHeight() + _ball.Height))
+            {
+                _displayManager.DisplayLostScreen();
+                StartGame();
             }
         }
 
         //Checks if the player has lost
-        public void CheckWon ()
+        public void CheckWon()
         {
-            if (_score == 40) {
-                _displayManager.DisplayWonScreen ();
-                StartGame ();
+            if (_score == 40)
+            {
+                _displayManager.DisplayWonScreen();
+                StartGame();
             }
         }
     }

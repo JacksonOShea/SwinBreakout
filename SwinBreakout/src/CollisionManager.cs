@@ -10,7 +10,7 @@ namespace MyGame
         //Brick Manager COnstructor
         public CollisionManager()
         { }
-
+            
 
         //Checks if the Ball has hit a brick
         public bool BallHitBrick(Ball _ball, Brick _brick)
@@ -31,7 +31,7 @@ namespace MyGame
             if (SwinGame.BitmapCollision(_paddle.Bmp, _paddle.X, _paddle.Y, _ball.Bmp, _ball.X, _ball.Y))
             {
                 CalculateBallDirection(_paddle, _ball);
-            }
+            }         
         }
 
 
@@ -84,3 +84,6 @@ namespace MyGame
         }
     }
 }
+
+	
+
