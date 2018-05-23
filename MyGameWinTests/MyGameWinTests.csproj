@@ -44,6 +44,10 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\SwinBreakout\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SwinGame, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\SwinGame.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -56,10 +60,22 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\TDDUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lib\cleanlib.sh" />
+    <None Include="lib\cygpath" />
+    <None Include="lib\mac\libSGSDK.dylib" />
+    <None Include="lib\makelib.sh" />
+    <None Include="lib\MonoMacLauncher" />
+    <None Include="lib\sgsdk_source.zip" />
+    <None Include="lib\win32\libSGSDL2.dll.a" />
+    <None Include="lib\win64\libSGSDL2.dll.a" />
     <None Include="packages.config" />
-    <None Include="src\UnitTestsForTDD.cs" />
+    <None Include="Resources\fonts\arial.ttf" />
+    <None Include="Resources\fonts\cour.ttf" />
+    <None Include="Resources\fonts\maven_pro_regular.ttf" />
+    <None Include="Resources\SwinGame.icns" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SwinBreakout\MyGameWin.csproj">
@@ -68,7 +84,70 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Content Include="lib\SwinGame.dll" />
+    <Content Include="lib\SwinGame.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\win32\libcurl.dll" />
+    <Content Include="lib\win32\libeay32.dll" />
+    <Content Include="lib\win32\libFLAC-8.dll" />
+    <Content Include="lib\win32\libfreetype-6.dll" />
+    <Content Include="lib\win32\libidn-11.dll" />
+    <Content Include="lib\win32\libjpeg-9.dll" />
+    <Content Include="lib\win32\libmodplug-1.dll" />
+    <Content Include="lib\win32\libogg-0.dll" />
+    <Content Include="lib\win32\libpng16-16.dll" />
+    <Content Include="lib\win32\librtmp.dll" />
+    <Content Include="lib\win32\libSGSDL2.dll" />
+    <Content Include="lib\win32\libssh2.dll" />
+    <Content Include="lib\win32\libtiff-5.dll" />
+    <Content Include="lib\win32\libvorbis-0.dll" />
+    <Content Include="lib\win32\libvorbisfile-3.dll" />
+    <Content Include="lib\win32\libwebp-4.dll" />
+    <Content Include="lib\win32\SGSDK.dll" />
+    <Content Include="lib\win32\smpeg2.dll" />
+    <Content Include="lib\win32\ssleay32.dll" />
+    <Content Include="lib\win32\zlib1.dll" />
+    <Content Include="lib\win64\libcurl.dll" />
+    <Content Include="lib\win64\libeay32.dll" />
+    <Content Include="lib\win64\libFLAC-8.dll" />
+    <Content Include="lib\win64\libfreetype-6.dll" />
+    <Content Include="lib\win64\libjpeg-9.dll" />
+    <Content Include="lib\win64\libmikmod-2.dll" />
+    <Content Include="lib\win64\libmodplug-1.dll" />
+    <Content Include="lib\win64\libogg-0.dll" />
+    <Content Include="lib\win64\libpng16-16.dll" />
+    <Content Include="lib\win64\libSGSDL2.dll" />
+    <Content Include="lib\win64\libtiff-5.dll" />
+    <Content Include="lib\win64\libvorbis-0.dll" />
+    <Content Include="lib\win64\libvorbisfile-3.dll" />
+    <Content Include="lib\win64\libwebp-4.dll" />
+    <Content Include="lib\win64\SGSDK.dll" />
+    <Content Include="lib\win64\smpeg2.dll" />
+    <Content Include="lib\win64\ssleay32.dll" />
+    <Content Include="lib\win64\zlib1.dll" />
+    <Content Include="Resources\animations\startup.txt" />
+    <Content Include="Resources\bundles\FileDialog.txt" />
+    <Content Include="Resources\bundles\splash.txt" />
+    <Content Include="Resources\images\Ball.png" />
+    <Content Include="Resources\images\BlueBrick.png" />
+    <Content Include="Resources\images\fdFile.png" />
+    <Content Include="Resources\images\fdFolder.png" />
+    <Content Include="Resources\images\FileDialog_Active.png" />
+    <Content Include="Resources\images\FileDialog_Background.png" />
+    <Content Include="Resources\images\FileDialog_Inactive.png" />
+    <Content Include="Resources\images\FileDialog_Scroll.png" />
+    <Content Include="Resources\images\FileDialog_ScrollSmall.png" />
+    <Content Include="Resources\images\GreenBrick.png" />
+    <Content Include="Resources\images\Paddle.png" />
+    <Content Include="Resources\images\RedBrick.png" />
+    <Content Include="Resources\images\Swinburne.jpg" />
+    <Content Include="Resources\images\SwinGameAni.png" />
+    <Content Include="Resources\images\YellowBrick.png" />
+    <Content Include="Resources\panels\FileDialog.txt" />
+    <Content Include="Resources\sounds\error.wav" />
+    <Content Include="Resources\sounds\SwinGameStart.wav" />
+    <Content Include="Resources\SwinGame.ico" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
