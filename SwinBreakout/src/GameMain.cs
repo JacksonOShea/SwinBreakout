@@ -26,6 +26,7 @@ namespace MyGame
                 _gameController.HandleUserInput();
                 _gameController.CheckCollision();
                 _gameController.DrawScreen();
+                _gameController.CheckStatus ();
 
             } while (!(SwinGame.WindowCloseRequested() == true));
 

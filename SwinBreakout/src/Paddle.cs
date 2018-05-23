@@ -46,7 +46,8 @@ namespace MyGame
         //Simply Resets the paddle
         public void Reset()
         {
-            _x = (int)((SwinGame.ScreenWidth() + _width) / 2);
+            _x = ((SwinGame.ScreenWidth() - _width) / 2);
+            _y = 550;
         }
 
 

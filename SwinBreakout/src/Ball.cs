@@ -42,7 +42,7 @@ namespace MyGame
         public void Move()
         {
             LimitBoundaries();
-            //Added * 3 to make the game faster
+                        //Added * 3 to make the game faster
             _x = _x + (_dx * 2);
             _y = _y + (_dy * 2);
         }

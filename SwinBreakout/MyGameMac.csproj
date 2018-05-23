@@ -56,6 +56,7 @@
     <Compile Include="src\GameController.cs" />
     <Compile Include="src\GameResources.cs" />
     <Compile Include="src\Paddle.cs" />
+    <Compile Include="src\DisplayManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">

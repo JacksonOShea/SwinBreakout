@@ -7,40 +7,48 @@ namespace MyGame
     {
 
         // Imports bitmaps/images to be used in the game
-        private static void LoadBitmaps()
+        private static void LoadBitmaps ()
         {
-            SwinGame.LoadBitmapNamed("RedBrick", "RedBrick.png");
-            SwinGame.LoadBitmapNamed("YellowBrick", "YellowBrick.png");
-            SwinGame.LoadBitmapNamed("GreenBrick", "GreenBrick.png");
-            SwinGame.LoadBitmapNamed("BlueBrick", "BlueBrick.png");
+            SwinGame.LoadBitmapNamed ("RedBrick", "RedBrick.png");
+            SwinGame.LoadBitmapNamed ("YellowBrick", "YellowBrick.png");
+            SwinGame.LoadBitmapNamed ("GreenBrick", "GreenBrick.png");
+            SwinGame.LoadBitmapNamed ("BlueBrick", "BlueBrick.png");
 
             //Load Paddle Bitmap
-            SwinGame.LoadBitmapNamed("Paddle", "Paddle.png");
+            SwinGame.LoadBitmapNamed ("Paddle", "Paddle.png");
 
             //Load Ball Bitmap
-            SwinGame.LoadBitmapNamed("Ball", "Ball.png");
+            SwinGame.LoadBitmapNamed ("Ball", "Ball.png");
+
+            //Load Winning and Losing Screen
+            SwinGame.LoadBitmapNamed ("WonScreen", "WonScreen.png");
+            SwinGame.LoadBitmapNamed ("LostScreen", "LostScreen.png");
+
+            //Loads Pause Screen
+            SwinGame.LoadBitmapNamed ("PauseTitle", "PauseTitle.png");
+            SwinGame.LoadBitmapNamed ("PauseOptions", "PauseOptions.png");
         }
 
         // Imports sounds to be used in the game
-        private static void LoadSounds()
+        private static void LoadSounds ()
         {
             //Load Sound Effects
             // Recorded by KevanGC - http://soundbible.com/1645-Pling.html
-            SwinGame.LoadSoundEffectNamed("BrickHit", "Pling-KevanGC-1485374730.ogg");
+            SwinGame.LoadSoundEffectNamed ("BrickHit", "Pling-KevanGC-1485374730.ogg");
             // SwinGame ErrorSound
-            SwinGame.LoadSoundEffectNamed("LifeLost", "error.ogg");
+            SwinGame.LoadSoundEffectNamed ("LifeLost", "error.ogg");
             // Recorded by Mike Koenig - http://soundbible.com/1817-Party-Horn.html
-            SwinGame.LoadSoundEffectNamed("Celebration", "party_horn-Mike_Koenig-76599891.ogg");
+            SwinGame.LoadSoundEffectNamed ("Celebration", "party_horn-Mike_Koenig-76599891.ogg");
             // Recorded by Joe Lamb - http://soundbible.com/1830-Sad-Trombone.html
-            SwinGame.LoadSoundEffectNamed("Dissapoint", "Sad_Trombone-Joe_Lamb-665429450.ogg");
+            SwinGame.LoadSoundEffectNamed ("Dissapoint", "Sad_Trombone-Joe_Lamb-665429450.ogg");
         }
 
 
         // Start loading program
-        public static void LoadResources()
+        public static void LoadResources ()
         {
-            LoadBitmaps();
-            LoadSounds();
+            LoadBitmaps ();
+            LoadSounds ();
         }
     }
 }

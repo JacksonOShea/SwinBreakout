@@ -11,6 +11,7 @@ namespace MyGame
         public Brick[] _bricks;
         public BrickManager _brickManager;
         public CollisionManager _collisionManager;
+        public DisplayManager _displayManager;
 
         public int _score;
         public bool _brickHit;
@@ -20,6 +21,7 @@ namespace MyGame
         {
             _brickManager = new BrickManager();
             _collisionManager = new CollisionManager();
+            _displayManager = new DisplayManager ();
             _paddle = new Paddle();
             _ball = new Ball();
             _bricks = _brickManager.CreateBricks();
@@ -57,6 +59,13 @@ namespace MyGame
             }
 
             _collisionManager.BallHitPaddle(_ball, _paddle);
+        }
+
+
+        public void CheckStatus ()
+        {
+            CheckWon ();
+            CheckLost ();
         }
 
 
@@ -121,12 +130,20 @@ namespace MyGame
         }
 
         //Checks if the player has lost
-        public void CheckLost()
+        public void CheckLost ()
         {
-            //Add Remove Life
-            //if (_ball.Y > SwinGame.ScreenHeight() + _ball.Height)
-            {
+            if (_ball.Y > (SwinGame.ScreenHeight () + _ball.Height)) {
+                _displayManager.DisplayLostScreen ();
+                StartGame ();
+            }
+        }
 
+        //Checks if the player has lost
+        public void CheckWon ()
+        {
+            if (_score == 40) {
+                _displayManager.DisplayWonScreen ();
+                StartGame ();
             }
         }
     }
