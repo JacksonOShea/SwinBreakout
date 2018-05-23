@@ -186,3 +186,15 @@ H:\03_DP1\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csprojResolv
 H:\03_DP1\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGameWin.csproj.CoreCompileInputs.cache
 H:\03_DP1\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.exe
 H:\03_DP1\SwinBreakout\SwinBreakout\obj\x86\Debug-Windows\MyGame.pdb
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\LostScreen.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\MenuTitle.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\PauseOptions.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\PauseTitle.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\SmallBall.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\images\WonScreen.png
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\error.ogg
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\Hockey Puck Slap-SoundBible.com-318266142.ogg
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\Metal Impact Hollow-SoundBible.com-583611978.ogg
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\party_horn-Mike_Koenig-76599891.ogg
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\Pling-KevanGC-1485374730.ogg
+H:\03_DP1\SwinBreakout\SwinBreakout\bin\Debug\Resources\sounds\Sad_Trombone-Joe_Lamb-665429450.ogg

@@ -39,12 +39,14 @@
   <ItemGroup>
     <Compile Include="src\CollisionManager.cs" />
     <Compile Include="src\BrickManager.cs" />
+    <Compile Include="src\DisplayManager.cs" />
     <Compile Include="src\GameController.cs" />
     <Compile Include="src\GameMain.cs" />
     <Compile Include="src\Brick.cs" />
     <Compile Include="src\GameResources.cs" />
     <Compile Include="src\Ball.cs" />
     <Compile Include="src\Paddle.cs" />
+    <Compile Include="src\PauseManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">
