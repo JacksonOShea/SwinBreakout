@@ -10,22 +10,18 @@ namespace MyGame
         //Brick Manager COnstructor
         public CollisionManager()
         { }
-            
+
 
         //Checks if the Ball has hit a brick
-        public void BallHitBrick(Ball _ball, Brick[] _bricks)
+        public bool BallHitBrick(Ball _ball, Brick _brick)
         {
-            //Checks every brick
-            for (int i = 0; i < _bricks.Length; i++)
+            if (SwinGame.BitmapCollision(_brick.Bmp, _brick.X, _brick.Y, _ball.Bmp, _ball.X, _ball.Y))
             {
-                //If a brick is hit, move that brick to the side and bounce the ball back
-                if (SwinGame.BitmapCollision(_bricks[i].Bmp, _bricks[i].X, _bricks[i].Y, _ball.Bmp, _ball.X, _ball.Y))
-                {
-                    _bricks[i].X = 1500;
-                    _ball.BounceBallOffBrick();
-
-                }
+                _ball.BounceBallOffBrick();
+                return true;
             }
+            else
+                return false;
         }
 
 
@@ -35,7 +31,7 @@ namespace MyGame
             if (SwinGame.BitmapCollision(_paddle.Bmp, _paddle.X, _paddle.Y, _ball.Bmp, _ball.X, _ball.Y))
             {
                 CalculateBallDirection(_paddle, _ball);
-            }         
+            }
         }
 
 
@@ -50,7 +46,7 @@ namespace MyGame
             if (_ball.Dy > 0)
             {
                 //If the ball hits the first sixth of the paddle
-                if (_ball.X <= _paddle.X + PaddleSection)
+                if (_ball.X <= (_paddle.X + PaddleSection))
                 {
                     _ball.ChangeDirection(-5, -1);
                 }
@@ -62,19 +58,19 @@ namespace MyGame
                 }
 
                 //If the ball hits the third sixth of the paddle
-                else if ((_ball.X > (_paddle.X + (PaddleSection * 2))) && (_ball.X <= _paddle.X + (PaddleSection * 3)))
+                else if ((_ball.X > (_paddle.X + (PaddleSection * 2))) && (_ball.X <= (_paddle.X + (PaddleSection * 3))))
                 {
                     _ball.ChangeDirection(-1, -3);
                 }
 
                 //If the ball hits the fourth sixth of the paddle
-                else if ((_ball.X > (_paddle.X + (PaddleSection * 3))) && (_ball.X <= _paddle.X + (PaddleSection * 4)))
+                else if ((_ball.X > (_paddle.X + (PaddleSection * 3))) && (_ball.X <= (_paddle.X + (PaddleSection * 4))))
                 {
                     _ball.ChangeDirection(1, -3);
                 }
 
                 //If the ball hits the fifth sixth of the paddle
-                else if ((_ball.X > (_paddle.X + (PaddleSection * 4))) && (_ball.X <= _paddle.X + (PaddleSection * 5)))
+                else if ((_ball.X > (_paddle.X + (PaddleSection * 4))) && (_ball.X <= (_paddle.X + (PaddleSection * 5))))
                 {
                     _ball.ChangeDirection(3, -2);
                 }
@@ -88,6 +84,3 @@ namespace MyGame
         }
     }
 }
-
-	
-
