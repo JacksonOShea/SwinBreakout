@@ -42,9 +42,9 @@ namespace MyGame
         public void Move()
         {
             LimitBoundaries();
-                        //Added * 3 to make the game faster
-            _x = _x + (_dx * 3);
-            _y = _y + (_dy * 3);
+            //Added * 3 to make the game faster
+            _x = _x + (_dx * 2);
+            _y = _y + (_dy * 2);
         }
 
 
@@ -111,10 +111,10 @@ namespace MyGame
         //Simply Resets the paddle
         public void Reset()
         {
-            _x = 350;
-            _y = 350;
+            _x = ((SwinGame.ScreenWidth() - _width) / 2);
+            _y = ((SwinGame.ScreenHeight() - _height) / 2);
             _dx = 0;
-            _dy = 3;
+            _dy = +3;
         }
 
         //X position Property

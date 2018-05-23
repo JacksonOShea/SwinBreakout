@@ -70,7 +70,7 @@ namespace MyGame
                 //If the ball hits the fourth sixth of the paddle
                 else if ((_ball.X > (_paddle.X + (PaddleSection * 3))) && (_ball.X <= _paddle.X + (PaddleSection * 4)))
                 {
-                    _ball.ChangeDirection(1, -1);
+                    _ball.ChangeDirection(1, -3);
                 }
 
                 //If the ball hits the fifth sixth of the paddle
