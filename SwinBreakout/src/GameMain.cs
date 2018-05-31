@@ -24,9 +24,9 @@ namespace MyGame
             {
                 //Checks the user's input, Checks the Collision and then Draws the Screen
                 _gameController.HandleUserInput();
-                _gameController.CheckPause();
-                _gameController.CheckCollision();
-                _gameController.DrawScreen();
+                _gameControllerr.CheckPause();
+                _gameControllerr.CheckCollision();
+                _gameControllerr.DrawScreen();
                 _gameController.CheckStatus();
 
             } while (!(SwinGame.WindowCloseRequested() == true));
