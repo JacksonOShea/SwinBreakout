@@ -27,7 +27,7 @@ namespace MyGame.Tests
         public void PaddleMoveLeft()
         {
             Paddle TestPaddle;
-            TestPaddle = new Paddle();
+            TestPaddle = new PaddleFAILURE ADD();
             TestPaddle.MoveLeft();
             Assert.AreEqual(490, TestPaddle.X);
         }
